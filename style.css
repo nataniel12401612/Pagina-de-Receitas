@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,300;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+.navigator {
+    background-color: #F16A27;
+    padding: 15px;
+    text-align: center;
+}
+.bunner {
+    background-image: url("./image/cabecalho_bolo.jpg");
+    background-size: cover;
+    height: 400px;
+    
+}
+
+.titulo01 {
+    color: #F16A27;
+}
+
+.conteudo {
+    margin: auto;
+    max-width: 990px;
+    padding: 40px;
+    margin-top: 80px;
+}
+
+h1, h2 {
+    color: #F16A27;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.cartao {
+    padding: 70px 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 15px 12px rgb(20, 20, 20, 0.25);
+}
+
+.cartao:hover {
+    box-shadow: 8px 8px 15px 12px rgb(205, 205, 205, 0.25);
+}
+
+.ingredientes {
+    cursor: url("./image/cursor_ingredientes.png"), auto;
+}
+
+.preparo {
+    cursor: url("./image/cursor_preparo.png"), auto;
+}
+
+.instrucoes {
+    cursor: url("./image/cursor_intrucoes.png"), auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botao-comprar {
+    background-color: #F16A27;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+.botao-comprar:hover {
+    box-shadow: 8px 8px 15px 12px rgb(205, 205, 205, 0.25);
+}
+
+li {
+    margin-bottom: 14px;
+}
+
+.lista-ingredientes {
+    margin-bottom: 50px;
+}
+
+p, li {
+    line-height: 28px;
+}
+
+.rodape {
+    background-color: #F16A27;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.rodape-texto {
+    max-width: 500px;
+    margin: auto;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.text-white {
+    color: white;
+}
